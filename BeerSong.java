@@ -21,8 +21,7 @@ public class BeerSong {
     public static void Ninety_Nine_Bottles_of_Beer(int x){
  
          if(x>1){
-            System.out.print(x +" bottles of beer on the wall ," ); 
-             System.out.print( x + " bottles of beer,\ntake one down, pass it around, " + (x-1)+ " bottles of beer on the wall. \n");
+            System.out.print(x +" bottles of beer on the wall ," + x + " bottles of beer,\ntake one down, pass it around, " + (x-1)+ " bottles of beer on the wall. \n");
             Ninety_Nine_Bottles_of_Beer(x-1); //decrement the x value
 }
 
